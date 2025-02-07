@@ -4,6 +4,7 @@ import com.CSC340.demo.model.Joke;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.client.RestTemplate;
 
+
 public class JokeController {
     @GetMapping("/Joke")
     public Joke getJoke() {
@@ -12,4 +13,5 @@ public class JokeController {
         Joke joke = restTemplate.getForObject(url, Joke.class);
         return joke;
     }
+
 }

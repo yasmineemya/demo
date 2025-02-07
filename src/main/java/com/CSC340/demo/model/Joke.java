@@ -1,6 +1,7 @@
 package com.CSC340.demo.model;
 
 public class Joke {
+    
     private boolean error;
     private String category;
     private String type;
