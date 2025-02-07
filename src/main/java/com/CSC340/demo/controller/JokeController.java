@@ -1,5 +1,6 @@
 package com.CSC340.demo.controller;
 
+
 import com.CSC340.demo.model.Joke;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.client.RestTemplate;
