@@ -12,6 +12,7 @@ public class Joke {
     private boolean safe;
     private String lang;
 
+
     public boolean isError() {
         return error;
     }
